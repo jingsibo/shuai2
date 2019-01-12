@@ -1,0 +1,352 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	/* background: #f2f2f2; */
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	border: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    clear: both;
+    background: #fff;
+    z-index: 999;
+    border-bottom: 1px solid #ccc; 
+}
+.header{
+    width: 1400px;
+    max-width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 20px;
+}
+.logo {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+.logo img {
+    width: 58px;
+    vertical-align: middle;
+}
+.nav{
+    float: left;
+    margin-left: 15px;
+}
+.nav .item{
+    position: relative;
+}
+.nav #item{
+    position: relative;
+}
+.nav #item-a #dis-a{
+    position: absolute;
+    left: -200px;
+}
+.nav #item-b #dis-b{
+    position: absolute;
+    left: -290px;
+}
+.nav .dis{
+    display: none;   
+    width: 1325px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: -100px;
+    right: 0;
+    bottom: 5px;
+    padding-left: 100px;
+}
+.nav .dis li{
+    margin-left: 6px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav ul{
+    height: 70px;
+    background: #fff;
+}
+.nav ul li{
+    float: left;
+    padding: 0 10px;
+    line-height: 70px;
+}
+
+.nav ul li a{
+    font-size: 16px;
+    padding: 0 5px;
+    
+}
+.h_right{
+    width: 446px;
+    float: right;
+    margin-top: 22px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.r_right{
+    float: right;
+}
+.r_right ul li{
+    float: left;
+    line-height: 70px;
+    margin: 0 15px;
+    line-height: .7rem;
+    margin: 0 1.5rem;
+    vertical-align: middle;
+}
+.r_right ul li a img{
+    vertical-align: middle;
+}
+.r_right ul li span{
+    vertical-align: middle;
+    font-size: 15px;
+}
+.h_right .r_con{
+   float: right;
+}
+.r_con .r_conn input{
+    width: 148px;
+    height: 26px;
+    border: 1px solid black;
+}
+.r_conn span{
+    background: url(../img/icons.png) no-repeat 3px 5px;
+    width: 30px;
+    height: 27px;
+    display: block;
+    position: absolute;
+    right: 166px;
+    top: 22px;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.r_left{
+    float: right;
+    width: 113px;
+    
+}
+.r_left .l_left{
+    float: left;
+    width: 113px;
+}
+.r_left ul{
+    float: left;
+    width: 113px;
+    
+}
+.l_left li {
+    float: left;
+    cursor: pointer;
+    margin: 5px  14px;
+}
+.h_left ul li{
+    
+    float: left;
+}
+/* -------------------------------- */
+
+.Bigbox{
+    width:100%;
+    padding-top:70px;
+    border-top:1px solid #cccccc;
+}
+.box{
+    width:990px;
+    margin:0 auto;
+}
+/*登录部分*/
+.boxleft{
+    float:left;
+     width:34%;
+    height:750px;
+    border-right:1px solid black;
+    box-sizing: border-box;
+}
+.boxleft h2{
+    line-height:100px;
+    font-size:36px;
+    font-weight:400;
+}
+.boxleft .ul_one{
+    width:252px;
+    font-size:14px;
+    color:#999999;
+}
+.boxleft .ul_one li a{
+    text-decoration: underline;
+    color:#0563c3;
+}
+.ul_two li input{
+    display:block;
+    width:250px;
+    height:30px;
+    outline: #eeeeee;
+}
+.ul_two li label{
+    display: inline-block;
+    line-height: 60px;
+    font-size:16px;
+}
+.ul_two li a{
+    display: inline-block;
+    text-decoration: underline;
+    color:#1f2020;
+    margin-top:20px;
+}
+/*登录按钮	*/	
+.logins .anniu{
+     display:inline-block;
+     width:250px;
+     height:30px;
+     border:1px solid black;
+     text-align: center;
+     line-height:30px;
+     background: black;
+     color:white;
+     font-size:16px;
+     margin-top:16px;
+}
+.boxcenter{
+    float:left;
+    width:10%;
+    height:750px;
+    background: white;
+}
+/*注册部分*/
+.boxright{
+    float:left;
+     width:56%;
+    height:750px;	
+}
+.boxright h2{
+    line-height:100px;
+    font-size:36px;
+    font-weight:400;
+}
+.boxright ul li{
+    display: inline-block;
+}
+.boxright ul li input{
+    display: block;
+    width:250px;
+    height:30px;
+    outline: #eeeeee;
+}
+.boxright ul li label{
+    display: block;
+    line-height: 60px;
+}
+/*同意条款部分*/
+ul .aggress{
+ margin-top:22px;
+}
+ul .aggress a{
+   color:#0563c3;
+}
+ul .aggress i{
+ display: inline-block;
+ vertical-align:middle;
+ width:20px;
+ height:20px;
+ border:1px solid black;
+margin-right:20px;
+
+}
+ul .aggress i img{
+   display: none;
+}
+
+/*注册按钮*/
+.register .anniu2{
+     display:inline-block;
+     width:250px;
+     height:30px;
+     border:1px solid black;
+     text-align: center;
+     line-height:30px;
+     background: black;
+     color:white;
+     font-size:16px;
+     margin-top:40px;
+}
+
+
+
+/* ------------------底部---------------- */
+
+.footer {
+    width: 100%;
+    background: black;
+    color: white;
+    clear: both;
+    margin-top: 100px;
+    padding: 0 15px;
+}
+.footer .maxfoot {
+    overflow: hidden;
+    width: 1210px;
+    margin: 0 auto;
+    padding-top: 50px;
+    max-width: 100%;
+}
+.footer .maxfoot .foot-l {
+    float: left;
+    width: 250px;
+}
+.foot-l .keys, .foot-l .shopWidgets_box {
+    float: left;
+    width: 125px;
+}
+.foot-l h3 {
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+}
+.foot-l ul li a, .foot-l ul li span {
+    font-size: 14px;
+    color: #bbbbbb;
+    line-height: 26px;
+}
+
+.footer .maxfoot .foot-l.two {
+    width: 276px;
+}
+.foot-l.two .keys {
+    width: 138px;
+}
+
+.footer .maxfoot .foot-r {
+    float: right;
+}
+.foot-r .AdvBanner {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.theme-footer {
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 12px;
+}

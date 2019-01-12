@@ -1,0 +1,314 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	/* background: #f2f2f2; */
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	border: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    clear: both;
+    background: #fff;
+    z-index: 999;
+    border-bottom: 1px solid #ccc; 
+}
+.header{
+    width: 1400px;
+    max-width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 20px;
+}
+.logo {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+.logo img {
+    width: 58px;
+    vertical-align: middle;
+}
+.nav{
+    float: left;
+    margin-left: 15px;
+}
+.nav .item{
+    position: relative;
+}
+.nav #item{
+    position: relative;
+}
+.nav #item-a #dis-a{
+    position: absolute;
+    left: -200px;
+}
+.nav #item-b #dis-b{
+    position: absolute;
+    left: -290px;
+}
+.nav .dis{
+    display: none;   
+    width: 1325px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: -100px;
+    right: 0;
+    bottom: 5px;
+    padding-left: 100px;
+}
+.nav .dis li{
+    margin-left: 6px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav ul{
+    height: 70px;
+    background: #fff;
+}
+.nav ul li{
+    float: left;
+    padding: 0 10px;
+    line-height: 70px;
+}
+
+.nav ul li a{
+    font-size: 16px;
+    padding: 0 5px;
+    
+}
+.h_right{
+    width: 446px;
+    float: right;
+    margin-top: 22px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.r_right{
+    float: right;
+}
+.r_right ul li{
+    float: left;
+    line-height: 70px;
+    margin: 0 15px;
+    line-height: .7rem;
+    margin: 0 1.5rem;
+    vertical-align: middle;
+}
+.r_right ul li a img{
+    vertical-align: middle;
+}
+.r_right ul li span{
+    vertical-align: middle;
+    font-size: 15px;
+}
+.h_right .r_con{
+   float: right;
+}
+.r_con .r_conn input{
+    width: 148px;
+    height: 26px;
+    border: 1px solid black;
+}
+.r_conn span{
+    background: url(../img/icons.png) no-repeat 3px 5px;
+    width: 30px;
+    height: 27px;
+    display: block;
+    position: absolute;
+    right: 166px;
+    top: 22px;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.r_left{
+    float: right;
+    width: 113px;
+    
+}
+.r_left .l_left{
+    float: left;
+    width: 113px;
+}
+.r_left ul{
+    float: left;
+    width: 113px;
+    
+}
+.l_left li {
+    float: left;
+    cursor: pointer;
+    margin: 5px  14px;
+}
+.h_left ul li{
+    
+    float: left;
+}
+
+/* -------轮播图插件------css */
+.focusBox { position: relative; width:100%; height:422px; overflow: hidden; margin-top: 70px; }
+.focusBox .pic{ position:relative; z-index:0; }
+.focusBox .pic img { width:100%; height:422px; display: block; }
+.focusBox .hd { width:100%; position: absolute; bottom: 10px; text-align: center; font-size:0; z-index:1; }
+.focusBox .hd li{margin: 0 5px; background: url(../img/dot.png) no-repeat 0 -16px; height: 16px; overflow: hidden; width: 16px; cursor: pointer;
+display:inline-block; *display:inline; zoom:1;  _background: url(../img/dot8.png) no-repeat 0 -16px;
+}
+.focusBox .hd .on{ background-position:0 0; }
+
+.focusBox .prev,
+.focusBox .next { width: 60px; height: 90px; margin: -60px 0 0; display: none; background: url(../img/ad_ctr.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; filter:alpha(opacity=20);opacity:0.2;  }
+.focusBox .prev { left: 0; }
+.focusBox .next { background-position: 0 -90px; right: 0; }
+.focusBox .prev:hover,
+.focusBox .next:hover { filter:alpha(opacity=50) !important;opacity:0.5 !important;  }
+
+/* -------------------------------------- */
+
+.content{
+    margin-bottom: 150px;
+}
+.content .cont{
+    box-sizing: border-box;
+}
+.maxTitle {
+    height: 5rem;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+.maxTitle h2 {
+    border-bottom: 1px solid #1f2020;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 4.7rem;
+}
+.maxTitle span {
+    font-size: 1.3rem;
+    background: white;
+    z-index: 666;
+    padding: 0 10px;
+}
+.cont ul {
+    width: 1352px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cont.contt ul li {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.cont ul li .item {
+    padding: 10px;
+}
+.cont ul li a {
+    display: block;
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+.cont ul li .item a img{
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+.cont .pt-title {
+    font-weight: bold;
+    display: block;
+    margin-top: 3px;
+    font-size: 18px;
+}
+.cont .pt-btn {
+    display: inline-block;
+    font-weight: bold;
+    min-width: 160px;
+    min-width: 16rem;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #1f2020;
+    margin-top: 10px;
+    margin-top: 1rem;
+    -webkit-transition: all 0.2ms linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    font-size: 18px;
+}
+
+/* ------------------底部---------------- */
+
+.footer {
+    width: 100%;
+    background: black;
+    color: white;
+    clear: both;
+    margin-top: 100px;
+    padding: 0 15px;
+}
+.footer .maxfoot {
+    overflow: hidden;
+    width: 1210px;
+    margin: 0 auto;
+    padding-top: 50px;
+    max-width: 100%;
+}
+.footer .maxfoot .foot-l {
+    float: left;
+    width: 250px;
+}
+.foot-l .keys, .foot-l .shopWidgets_box {
+    float: left;
+    width: 125px;
+}
+.foot-l h3 {
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+}
+.foot-l ul li a, .foot-l ul li span {
+    font-size: 14px;
+    color: #bbbbbb;
+    line-height: 26px;
+}
+
+.footer .maxfoot .foot-l.two {
+    width: 276px;
+}
+.foot-l.two .keys {
+    width: 138px;
+}
+
+.footer .maxfoot .foot-r {
+    float: right;
+}
+.foot-r .AdvBanner {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.theme-footer {
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 12px;
+}
